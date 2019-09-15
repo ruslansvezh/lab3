@@ -12,3 +12,4 @@ int main()
 	cout << "A = " << A<<endl;
 	cout << "B =  " << B<<endl;
 	return 0;
+}
