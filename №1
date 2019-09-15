@@ -1,0 +1,14 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	double A, B, x;
+	cout << "Enter A and B : " << endl;
+	cin >> A >> B;
+	x = A;
+	A = B;
+	B = x;
+	cout << "A = " << A<<endl;
+	cout << "B =  " << B<<endl;
+	return 0;
