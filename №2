@@ -1,0 +1,17 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	double A, B,C,y, x;
+	cout << "Enter A, B and C : " << endl;
+	cin >> A >> B>>C;
+	x = C;
+	y = B;
+	B = A;
+	C = y; 
+	A = x;
+	cout << "A = " << A<<endl;
+	cout << "B =  " << B<<endl;
+	cout << "C =  " << C << endl;
+	return 0;
