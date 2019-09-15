@@ -1,0 +1,16 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	double A,x;
+	cout << "Enter value of A: " << endl;
+	cin >> A;
+	x = A * A;
+	x = x * x;
+	x = x * x;
+	cout << "A^8=" << x;
+	return 0;
+
+}
+
