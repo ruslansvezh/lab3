@@ -1,0 +1,16 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	double A,x,y;
+		cout << "Enter value of A: " << endl;
+			cin >> A;
+			x=A*A;
+			y=x*A;
+			x=x*y;
+			y=x*x;
+			y=y*x;
+			cout<<"A^15="<<y;
+			return 0;
+}
